@@ -22,12 +22,13 @@ class DiscoverPage extends React.Component {
       }
     };
 
-    fetch("https://api.deezer.com/chart",
+    fetch("/chart",
       {
         method: "GET",
         config
       }).then(res => res.json())
-      .then(data => this.setState({
+      .then(data =>
+        this.setState({
         tracks: data.tracks.data,
         playlists: data.playlists.data,
         browse: data.albums.data,

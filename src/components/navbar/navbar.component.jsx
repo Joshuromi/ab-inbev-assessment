@@ -2,22 +2,18 @@ import './navbar.style.css';
 
 const Navbar = () => (
   <div className="navbar">
-    <a href="/">
       <div className="tabs">
         <div className="info">
           <i className="fa fa-headphones" aria-hidden="true"></i>
           <span>Discover</span>
         </div>
       </div>
-    </a>
-    <a href="/search">
       <div className="tabs">
         <div className="info">
           <i className="fa fa-search" aria-hidden="true"></i>
           <span>Search</span>
         </div>
       </div>
-    </a>
     <div className="tabs">
       <div className="info">
         <i className="fa fa-heart" aria-hidden="true"></i>
