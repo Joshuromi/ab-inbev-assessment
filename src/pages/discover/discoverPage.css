@@ -1,0 +1,30 @@
+.discover {
+  padding-bottom: 100px;
+}
+
+.sub-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 0px;
+}
+
+.sub-title p {
+  font-weight: 900;
+  font-size: 14px;
+  color: #aaa;
+  min-width: 200px;
+}
+
+.sub-title span {
+  margin: 10px;
+  color: #574fd8;
+  width: 10px;
+}
+
+.line {
+  height: 1px;
+  background-color: #aaa;
+  width: 80%;
+  margin-left: 10px;
+}

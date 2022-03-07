@@ -1,0 +1,57 @@
+.track-player {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: calc(100% - 200px);
+  bottom: 0;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.track-player i {
+  font-size: 25px;
+  padding: 5px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.image img {
+  border: 1px solid #aaa;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.controls {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.bar {
+  width: 100%;
+  height: 2px;
+  background-color: #aaa;
+}
+
+.title {
+  text-align: center;
+  line-height: 0;
+}
+
+/* .options {
+  min-width: 150px;
+  margin: 20px;
+  padding-right: 20px;
+} */
+
+@media (max-width: 800px) {
+  .track-player {
+    padding: 5px;
+    width: calc(100% - 100px);
+  }
+}

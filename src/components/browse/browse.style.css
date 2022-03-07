@@ -1,0 +1,14 @@
+.browse {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.browse-row {
+  display: flex;
+  width: max-content;
+  padding: 20px;
+}
+
+.browse::-webkit-scrollbar {
+  display: none;
+}

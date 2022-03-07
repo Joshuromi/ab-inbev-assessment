@@ -1,0 +1,14 @@
+.tracks {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.track-row {
+  display: flex;
+  width: max-content;
+  padding: 20px;
+}
+
+.tracks::-webkit-scrollbar {
+  display: none;
+}
