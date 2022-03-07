@@ -15,17 +15,17 @@ class DiscoverPage extends React.Component {
   }
 
   componentDidMount() {
-    // const config = {
-    //   headers: {
-    //     "Access-Control-Allow-Origin": "*",
-    //     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
-    //   }
-    // };
+    const config = {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
+      }
+    };
 
     fetch("/chart", 
       {
         method: "GET",
-        // config
+        config
       }).then(res => res.json())
       .then(data =>
         this.setState({
